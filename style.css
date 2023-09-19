@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+}
+
+main {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0;
+}
+
+p {
+    color: rgb(36, 36, 36);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+h2 {
+    color: darkblue;
+}
+
+h3 {
+    padding: 20px;
+}
+
+.bg-image {
+    background-image: url(./assets/city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.blank {
+    height: 150px;
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+    margin: 20px;
+    overflow-y: scroll;
+    max-height: 80vh;
+}
+
+summary {
+    font-style: italic;
+    list-style: none;
+    padding: 20px;
+}
+
+img {
+    border-radius: 50px;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+#subject {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: 8px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #ffd500;
+    color: black;
+    padding: 5px 17px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #d5c10a;
+}
+
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+}
+
+.navigation {
+    max-width: 100px;
+}
