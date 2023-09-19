@@ -18,10 +18,18 @@ p {
     color: rgb(36, 36, 36);
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    /* padding: 100px 100px; */
+}
+
 h1 {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     margin: auto;
+    background-color: white;
 }
 
 h2 {
@@ -46,12 +54,12 @@ h3 {
 }
 
 .blank {
-    height: 150px;
+    height: 100px;
 }
 
 
 .container {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8);
     padding: 50px;
     margin: 20px;
     overflow-y: scroll;
@@ -81,7 +89,7 @@ textarea {
     width: 80%;
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 10px;
     box-sizing: border-box;
     margin: 8px;
     resize: vertical;
@@ -92,7 +100,7 @@ input[type="submit"] {
     color: black;
     padding: 5px 17px;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
     margin: 10px;
 }
@@ -102,16 +110,12 @@ input[type="submit"]:hover {
 }
 
 .contact {
-    border-radius: 5px;
-    background-color: #f2f2f2;
+    border-radius: 8px;
     padding: 20px;
 }
 
 form {
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
-.navigation {
-    max-width: 100px;
-}
